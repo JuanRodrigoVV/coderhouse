@@ -6,6 +6,9 @@
 body{
     background-color: rgba(255, 255, 255, 0.788);
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 
     
 }
@@ -84,6 +87,7 @@ header{
     align-items: center; 
     padding: 10px;
     box-shadow: 5px 10px 10px rgb(97, 120, 131);
+    margin-bottom: 2rem;
     
 
 }
@@ -107,8 +111,11 @@ footer{
     background-color: rgb(135, 164, 206);
     align-items: center;
     padding: 10px;
-    margin-bottom: 40px;
-    margin-top: 40px;
+    margin-bottom: 0px;
+    
+    margin-top: auto;
+
+
 }
 
 nav a{
@@ -212,19 +219,31 @@ a{
        
         margin-top: 40px;
         width: auto;
+        
+        margin-bottom: 0px;
+    
+        margin-top: auto;
+        
+
     }
    
     header{
    
         display: flex;
-        justify-content: space-between;    
-        min-height: auto;
+        flex-direction: column;
+         
+        min-height: 100px;
         background-color: rgb(135, 164, 206);
-        align-items: center; 
-        padding: 10px;
+        align-items: center;         
         box-shadow: 5px 10px 10px rgb(97, 120, 131);
+        font-size: 10px;
+
+        
         
     
+    }
+    .adaptar {
+        margin-bottom: 18px;
     }
     .menu li{
         display: contents;
@@ -235,6 +254,7 @@ a{
     h1 {
         font-size: 20px;
         margin-top: 15px;
+        text-align: center;
     }
 
     
