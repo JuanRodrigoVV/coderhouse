@@ -1,0 +1,30 @@
+$espaciados: (
+    0: 0,
+    1: 1rem * 0.25,
+    2: 1rem * 0.5,
+    3: 1rem,
+    4: 1rem * 1.5,
+    5: 1rem * 3
+);
+
+@each $clave, $valor in $espaciados {
+    .pad-#{$clave} {
+        padding: $valor;
+    }
+}
+
+$margenes: (
+    0: 0,
+    1: 1rem * 0.25,
+    2: 1rem * 0.5,
+    3: 1rem,
+    4: 1rem * 1.5,
+    5: 1rem * 3
+);
+
+@each $clave, $valor in $margenes {
+    .marg-#{$clave} {
+        margin: $valor;
+    }
+}
+

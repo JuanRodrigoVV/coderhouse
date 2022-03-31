@@ -1,11 +1,21 @@
-.header__contenido{
-    position: relative; 
-    z-index: 100;
-}
-.logo{
+.header__contenido {
+    position: relative;
+    z-index: 100; }
+  
+.logo {
     font-weight: 900;
     font-size: 30px;
     margin: 10px;
     font-family: cambria;
-   color: #fff;
-}
+    color: #fff; }
+
+ul {
+        margin-top: 25px;
+        margin-bottom: 1rem;
+        
+    }
+    
+.fuente {
+      font-size: 20px;
+      font-weight: 600;
+    }
