@@ -65,7 +65,7 @@ img {
   height: 35vh;
   margin-top: -60px;
   position: relative;
-  background: url("../img/Index.png");
+  background: url("../img/Index.webp");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -136,7 +136,7 @@ img {
   height: 50vh;
   color: #0f0e0e;
   position: relative;
-  background: url("../img/banner2.png");
+  background: url("../img/banner2.webp");
   background-size: cover;
   background-position: right;
   background-attachment: fixed; }
