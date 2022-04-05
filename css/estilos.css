@@ -86,7 +86,7 @@ img {
   background: #9cc76b;
   border: none;
   padding: 12px;
-  color: #fff;
+  color: black;
   font-size: 20px; }
 
 .button__banner:hover {
@@ -244,7 +244,7 @@ ul {
   background: #9cc76b;
   border: none;
   padding: 0px;
-  color: #fff;
+  color: black;
   font-size: 12px;
   margin-bottom: 0%; }
 
@@ -281,7 +281,7 @@ ul {
     background: #9cc76b;
     border: none;
     padding: 12px;
-    color: #fff;
+    color: black;
     font-size: 20px; }
   ul {
     margin-top: 25px;
